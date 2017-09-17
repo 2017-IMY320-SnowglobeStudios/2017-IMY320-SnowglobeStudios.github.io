@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+body, body > div {
+  height: inherit;
+}
+
+body {
+  background: #000000 url("../assets/images/plain-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  position: relative;
+  margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
+}
+
+.black-background {
+  background-color: #000;
+  opacity: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.title img {
+  width: 100%;
+  margin-top: -100%;
+}
+
+.title {
+  padding: 2% 5%;
+}
+
+.bubble-dummy {
+    margin-top: 100%;
+}
+
+.bubble {
+  position: absolute;
+  left: 40%;
+  top: 100%;
+}
+
+.bubble-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: visible !important;
+  cursor: pointer;
+}
+
+.bubble:hover .bubble-text {
+  transition: opacity ease 1s, top ease 1s;
+  top: 30%;
+  opacity: 1;
+}
+
+.bubble:hover .bubble-color {
+  transition: all ease 0.3s;
+  box-shadow: 20px 20px 10px rgba(0,0,0,0.5);
+}
+
+.bubble-text {
+  transition: all ease 1s;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  opacity: 0;
+}
+
+.bubble-text img {
+  width: 60%;
+}
+
+.bubble-01 .bubble-color {
+  background: url("../assets/images/bubble-01.png");
+  background-size: cover;
+}
+
+.bubble-02 .bubble-color {
+  background: url("../assets/images/bubble-02.png");
+  background-size: cover;
+}
+
+.bubble-03 .bubble-color {
+  background: url("../assets/images/bubble-03.png");
+  background-size: cover;
+}
+
+.bubble-color {
+  transition: all ease 0.3s;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.bubble-container {
+  padding-top: 20%;
+  padding-bottom: 20%
+}

@@ -1,0 +1,126 @@
+body, body > div {
+    height: inherit;
+}
+
+body {
+  background: #000000 url("../assets/images/plain-bg.png");
+}
+
+html body {
+  font-size: 1.0rem;
+}
+
+html body h1 {
+  font-size: 2.0rem;
+}
+
+.content {
+  margin: 0 10%;
+}
+
+.banner {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.gallery-logo > img{
+  height: 100px;
+}
+
+.content {
+  padding-top: 75px;
+}
+
+.image-description {
+  margin-top: 40%;
+}
+
+.hide {
+  visibility: hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.gallery-img-right {
+  margin-top: 100px;
+}
+
+.gallery-img-mid {
+  margin-bottom: 50px;
+}
+
+.slice {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 95%;
+  background-size: cover;
+}
+
+.half1 {
+  left: 0;
+  background-position: left;
+}
+
+.half2 {
+  margin-top: 10px;
+  left: 45%;
+  background-position: right;
+  box-shadow: -5px -5px 3px 0px rgba(0,0,0,0.3);
+}
+
+/*Wallop Image Slider*/
+.Wallop {
+  max-width: 100%;
+}
+
+.Wallop-list {
+  margin: 15px 0;
+}
+
+.Wallop-item {
+  width: 100%;
+  overflow: visible;
+}
+
+.Wallop-item img {
+  width: 100%;
+  max-width: 100%;
+}
+
+
+
+.arrow-btn {
+  transition: all ease 0.3s;
+  position: absolute;
+  width: 45%;
+  border: 0 solid #FFF;
+  display: inline;
+  background-color: rgba(0,0,0,0);
+  padding: 0;
+  margin: 0;
+}
+
+.right-arrow-btn {
+  right: 0;
+}
+
+.left-arrow-btn {
+  left: 0;
+}
+
+.left-arrow-btn:hover {
+  transition: all ease 0.3s;
+  left: -5px;
+  cursor: pointer;
+}
+
+.right-arrow-btn:hover {
+  transition: all ease 0.3s;
+  right: -5px;
+  cursor: pointer;
+}
+
+.arrow-btn img {
+  width: 100%;
+}

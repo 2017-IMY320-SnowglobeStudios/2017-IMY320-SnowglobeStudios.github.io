@@ -1,0 +1,81 @@
+
+body {
+  background: #000000 url("../assets/images/ice-bg.png");
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  margin-left: -15px;
+}
+
+.profile-picture img {
+  height: 50vh;
+}
+
+.profile-container {
+  position: relative;
+  margin: auto auto;
+  margin-top: 50px;
+}
+
+.profile-summary {
+  position: relative;
+  margin: 20px;
+}
+.profile-summary p {
+  position: absolute;
+}
+
+.ice-background {
+  background: #000000 url("../assets/images/pulsing-ice.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.nav-profile-picture-hover {
+  display: none;
+}
+
+.nav-profile-picture-container {
+  position: relative;
+}
+
+.nav-profile-picture-container:hover .nav-profile-picture-hover {
+  display: inline;
+  cursor: pointer;
+}
+
+.nav-profile-picture-container:hover .nav-profile-picture {
+  display: none;
+}
+
+.TeamTitle img {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.banner-profile-pictures img {
+  width: 100%;
+}
+
+.banner-profile-pictures > div > div {
+  padding: 0 0 0 30px;
+}
+
+#duart, #wanrick {
+  background: #000000 url("../assets/images/ice-bg-02.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}

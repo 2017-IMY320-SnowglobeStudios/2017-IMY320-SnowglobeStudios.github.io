@@ -1,0 +1,260 @@
+
+body, body > div {
+  height: inherit;
+}
+
+html body {
+  font-size: 1.0rem;
+}
+
+html body h1 {
+  font-size: 2.0rem;
+}
+
+.container{
+ width:100%;
+ height:100%;
+ z-index: 2;
+}
+
+.backgroundImage{
+	width:100%;
+	height: 100%;
+	background: url("../assets/images/about-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: 1;
+
+}
+
+.firstSection{
+	width:100%;
+	height: 110%;
+	background: url("../assets/images/aboutThird-bg.png");
+	overflow: visible !important;
+	background-size: cover;
+	z-index: 2;
+}
+
+.secondSection{
+
+	width:100%;
+	height:110%;
+	background: url("../assets/images/aboutFirst-bg.png");
+	overflow: visible !important;
+	background-size: cover;
+	z-index: 2;
+}
+
+.thirdSection{
+
+	width:100%;
+	height:110%;
+	background: url("../assets/images/aboutSecond-bg.png");
+	overflow: visible !important;
+	background-size: cover;
+	z-index: 2;
+}
+
+.SectionTitle{
+	position:relative;
+	top:20%;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	max-width:30%;
+	max-height: auto;
+
+}
+
+#SectionButton1{
+	position:absolute;
+	top:30%;
+	left:15%;
+	max-width:25%;
+	max-height: auto;
+	z-index:10;
+}
+
+#SectionButton2{
+	position:absolute;
+	top:50%;
+	left:40%;
+	max-width:25%;
+	max-height: auto;
+	z-index:10;
+}
+
+
+#SectionButton3{
+	position:absolute;
+	top:30%;
+	left:65%;
+	max-width:25%;
+	max-height: auto;
+	z-index:10;
+}
+
+#SectionButtonTitle1{
+	max-width:15%;
+	max-height:auto;
+	position:absolute;
+	top:41%;
+	left:19%;
+	z-index:11;
+}
+
+#SectionButtonTitle2{
+	max-width:15%;
+	max-height:auto;
+	position:absolute;
+	top:61%;
+	left:44%;
+	z-index:11;
+}
+
+#SectionButtonTitle3{
+	max-width:15%;
+	max-height:auto;
+	position:absolute;
+	top:41%;
+	left:69%;
+	z-index:11;
+}
+
+#TheAboutTitle{
+  max-width:20%;
+  max-height:auto;
+  position:absolute;
+  top:8%;
+  left:50%;
+  margin-left: -10%;
+}
+
+.disappearPoint{
+	max-height:50%;
+}
+
+.girlPosition{
+	position:relative;
+	top:0%;
+	left:30%;
+}
+
+.textPosition{
+	position:relative;
+	top:15%;
+	left:30%;
+}
+
+
+.row{
+	height:100% !important;
+}
+
+
+#secOne{
+	position:relative;
+	top: 50%;
+}
+
+#secTwo{
+	position:relative;
+	top: 70%;
+}
+
+#secThree{
+	position:relative;
+	top: 70%;
+}
+
+p{
+	color: #000000;
+	font-weight: bold;
+}
+
+#monsterFront, #backGirl{
+	position:absolute;
+	opacity:0;
+}
+
+.skillTreePosition{
+	position:relative;
+	top:-20%;
+	left:40%;
+	max-width:100%;
+	max-height:auto;
+}
+
+.GamePosition{
+	position:relative;
+	top:0%;
+	left:50%;
+	max-width:80%;
+	max-height:auto;
+}
+
+.arrowPosition{
+	max-width:50%;
+	max-height:auto;
+}
+
+.textPosition2{
+	position:relative;
+	top:15%;
+	left:45%;
+}
+
+.textPosition3{
+	position:relative;
+	top:0%;
+	left:45%;
+}
+
+.arrowButs{
+	background:transparent;
+	border:none;
+	position:relative;
+	top:25%;
+	left:25%;
+
+}
+
+.arrowBut{
+	background: none;
+	border:none;
+	position:relative;
+	top:25%;
+	left:25%
+}
+
+.arrowBut:hover,.arrowBut:focus,.arrowBut:active{
+	background: none;
+	border:none;
+	outline:none;
+	cursor: pointer;
+}
+
+.rightArrowPosition{
+	max-width:50%;
+	max-height:auto;
+}
+/*.charImg{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	-webkit-perspective: 1000;
+	perspective: 1000;
+}
+
+#sliderContainer{
+	width:300%;
+	height:100%;
+}
+
+.panel{
+	height:100%;
+	width: 10%;
+	float: left;
+}*/
