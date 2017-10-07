@@ -134,5 +134,73 @@ $(document).ready(function(){
 		
 	});
 
+	var clicked = false;
+
+	var moveForMenu = TweenMax.to(".container", 1, {left:"100%", opacity:0, ease:Power1.easeOut, paused:true } );
+	var moveForMenu2 = TweenMax.to(".titles", 1, {left: "100%" , opacity:0, ease:Power1.easeOut, paused:true } );
+	var moveForMenu3 = TweenMax.to(".hamburgerMenu", 1, {delay: 1, left: "90%" , paused:true } );
+	var moveForMenu7 = TweenMax.to("#menu", 1, {left: "0%" , opacity:100, ease:Power1.easeInOut, paused:true } );
+	var moveForMenu4 = TweenMax.to(".container", 3, {delay:3, left:"0%", opacity:100, paused:true } );
+	var moveForMenu5 = TweenMax.to(".titles", 3, {delay:3, left: "0%" , opacity:100, paused:true } );
+	var moveForMenu6 = TweenMax.to(".hamburgerMenu", 1, {left: "0%" , paused:true } );
+
+	$(".hamburgerMenu").click(function(){
+
+		change();
+	});
+
+
+	function change(){
+
+		if(clicked == false)
+		{
+			moveForMenu.play(0);
+			moveForMenu2.play(0);
+			moveForMenu3.play(0);
+			setTimeout(change11, 1000);
+			moveForMenu7.play(0);
+
+			$("#main2").css("overflow", "hidden");
+			clicked = true;
+		}
+		else
+		{
+			setTimeout(change11, 1000);
+			moveForMenu.reverse();
+			moveForMenu2.reverse();
+			moveForMenu6.play(0);
+			moveForMenu7.reverse();
+			$("#main2").css("overflow", "visible");
+			clicked = false;
+		}
+		
+	}
+
+
+	// $(".navigation-sandwich").on('click', function () {
+  
+   
+ // });
+
+  $(".nav-link").click( function() {
+    var href = $(this).data("href");
+    $("#menu").animate({
+      marginLeft: "-100%",
+    }, 1000, function() {
+      window.location = href;
+    });
+    $(".hamburgerMenu").animate({
+      left: "-100%",
+    }, 1000);
+
+  });
 
 });
+
+
+
+function change11(){
+		  $(".navigation-sandwich").toggleClass('change');
+	}
+
+
