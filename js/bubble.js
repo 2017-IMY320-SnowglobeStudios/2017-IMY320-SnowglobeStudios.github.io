@@ -77,10 +77,7 @@ class Bubble {
   
         console.log("Mouseout: "+this.className);
         this.moveBubbleBack();
-      } else {
-        clearInterval(this.leaveIntervalId);
-        this.leaveIntervalId = null;
-  
+      } else {  
         console.log("Mouseout busy: "+this.className);
       }
      }
