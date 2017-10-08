@@ -16,6 +16,8 @@ html body h1 {
 
 .content {
   margin: 0 10%;
+  padding-top: 35px;
+  padding-bottom: 40px;
 }
 
 .banner {
@@ -25,10 +27,6 @@ html body h1 {
 
 .gallery-logo > img{
   height: 100px;
-}
-
-.content {
-  padding-top: 75px;
 }
 
 .image-description {
