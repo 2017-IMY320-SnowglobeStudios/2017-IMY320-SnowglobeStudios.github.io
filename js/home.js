@@ -1,10 +1,13 @@
 $(function(){
-  
+
     var bubbleArray = new Array();
-  
-    $(".black-background").animate({opacity: "0"}, 1000, function() {
-      setBubbles();
-      setTitle();
+
+    $(window).on("load", function() {
+    
+      $(".black-background").animate({opacity: "0"}, 1000, function() {
+        setBubbles();
+        setTitle();
+      });
     });
   
   
